@@ -1,0 +1,10 @@
+[package]
+name = "package-merge"
+version = "0.1.1"
+edition = "2024"
+
+[dependencies]
+json5 = "0.4.1"
+serde = "1.0.219"
+serde_json = {version="1.0.140", features=['preserve_order']}
+
